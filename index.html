@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,57 +9,58 @@
   <!-- Daisy -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
-<!-- font -->
+  <!-- font -->
 
 </head>
+
 <body>
   <header>
-  <!-- navbar -->
-   <section class="m-20">
-    <div class="navbar bg-base-100 ">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
+    <!-- navbar -->
+    <section class="m-20">
+      <div class="navbar bg-base-100 ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li><a></a>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Item 1</a></li>
-            <li><a></a>
+          <a class="btn btn-ghost text-3xl font-bold">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-normal text-xl text-zinc-700">
+            <li><a>Home</a></li>
+            <li>
+              <a>About </a>
             </li>
-            <li><a>Item 3</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-3xl font-bold">P-Ticket</a>
+        <div class="navbar-end flex items-center ">
+          <a href="#1" role="button" class="btn btn-outline btn-success bg-green-100 border-2 rounded-2xl">
+            <h3 class="text-xl font-bold">Bus</h3>
+            <img src="images/bus-icon.png" alt="">
+          </a>
+        </div>
       </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1 font-normal text-xl text-zinc-700">
-          <li><a>Home</a></li>
-          <li>
-           <a>About </a>
-          </li>
-          <li><a>Destination</a></li>
-          <li><a>Search</a></li>
-        </ul>
-      </div>
-      <div class="navbar-end flex items-center ">
-        <a href="#1" role="button" class="btn btn-outline btn-success bg-green-100 border-2 rounded-2xl">
-              <h3 class="text-xl font-bold">Bus</h3>
-              <img src="images/bus-icon.png" alt="">
-        </a>
-      </div>
-    </div>
-   </section>
+    </section>
   </header>
   <main>
     <section class="m-20 rounded-3xl">
-      <div class="hero min-h-screen rounded-3xl"
-        style="background-image: url(images/banner.png);">
+      <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png);">
         <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
         <div class="hero-content text-neutral-content text-center">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold text-white font-bold">End-to-End Travel with <br> 
+            <h1 class="mb-5 text-5xl font-bold text-white font-bold">End-to-End Travel with <br>
               <span class="text-green-500 m-8">P Paribahan</span>
             </h1>
             <p class="mb-5">
@@ -69,119 +71,147 @@
           </div>
         </div>
       </div>
-      <div class="-mt-16 items-center gap-4 drop-shadow-lg bg-white p-6 w-80 mx-20 flex rounded-3xl border-solid border-4 border-b-green-500">
+      <div
+        class="-mt-16 items-center gap-4 drop-shadow-lg bg-white p-6 w-80 mx-20 flex rounded-3xl border-solid border-4 border-b-green-500">
         <div>
           <img class="h-20" src="images/people.png" class="h-80" />
-          </div>
-          <div>
-            <h3 class="text-3xl">
-              500K+
-            </h3>
-            <p>
-              Registered users
-            </p>
-          </div>
         </div>
-        <div class="-mt-32 items-center gap-4 drop-shadow-lg bg-white p-6 w-80 mx-auto flex rounded-3xl border-solid border-4 border-b-green-500">
-          <div>
-            <img class="h-20" src="images/ticket-cupon.png" class="h-80" />
-          </div>
-          <div>
-            <h3 class="text-3xl">
-              1.7 lacks 
-            </h3>
-            <p>
-              Tickets sold
-            </p>
-          </div>
+        <div>
+          <h3 class="text-3xl">
+            500K+
+          </h3>
+          <p>
+            Registered users
+          </p>
         </div>
-        <div class="-mt-32 items-center gap-4 drop-shadow-lg bg-white mx-[890px] p-6 w-80  flex rounded-3xl border-solid border-4 border-b-green-500">
-          <div>
-            <img class="h-20" src="images/stoppage.png" class="h-80" />
-          </div>
-          <div>
-            <h3 class="text-3xl">
-              80K+
-            </h3>
-            <p>
-                Rental partners
-            </p>
-          </div>
+      </div>
+      <div
+        class="-mt-32 items-center gap-4 drop-shadow-lg bg-white p-6 w-80 mx-auto flex rounded-3xl border-solid border-4 border-b-green-500">
+        <div>
+          <img class="h-20" src="images/ticket-cupon.png" class="h-80" />
         </div>
+        <div>
+          <h3 class="text-3xl">
+            1.7 lacks
+          </h3>
+          <p>
+            Tickets sold
+          </p>
+        </div>
+      </div>
+      <div
+        class="-mt-32 items-center gap-4 drop-shadow-lg bg-white mx-[890px] p-6 w-80  flex rounded-3xl border-solid border-4 border-b-green-500">
+        <div>
+          <img class="h-20" src="images/stoppage.png" class="h-80" />
+        </div>
+        <div>
+          <h3 class="text-3xl">
+            80K+
+          </h3>
+          <p>
+            Rental partners
+          </p>
+        </div>
+      </div>
     </section>
 
 
     <!-- offer section -->
-     <section class="m-20">
+    <section class="m-20">
       <h1 class="text-4xl text-black font-bold text-center mb-12">Best offers for you</h1>
       <div class="flex gap-8">
         <div class="w-full max-w-2xl bg-orange-300 rounded-3xl shadow-lg flex">
-            <div class="p-9">
-              <h1 class="text-5xl font-bold mb-2">
+          <div class="p-9">
+            <h1 class="text-5xl font-bold mb-2">
               15% OFF
-              </h1>
-              <h3 class="text-2xl font-medium mb-2">on your next purchase</h3>
-              <p class="text-xl text-zinc-600">use by January 2024</p>
-            </div>
-            <img class="h-" src="images/cupon-devider.png" alt="">
-            <div class="p-9">
-              <h1 class="text-4xl font-bold mb-2 mt-8">NEW15</h1>
-              <p class="text-xl text-zinc-600">Coupon Code</p>
-            </div>
+            </h1>
+            <h3 class="text-2xl font-medium mb-2">on your next purchase</h3>
+            <p class="text-xl text-zinc-600">use by January 2024</p>
           </div>
-          <!-- card 2 -->
-          <div class="w-full max-w-2xl bg-rose-300 rounded-3xl shadow-lg flex">
-            <div class="p-9">
-              <h1 class="text-5xl font-bold mb-2">
-                20% OFF
-              </h1>
-              <h3 class="text-2xl font-medium mb-2">on your next purchase</h3>
-              <p class="text-xl text-zinc-600">use by January 2024</p>
-            </div>
-            <img src="images/cupon-devider.png" alt="">
+          <img class="h-" src="images/cupon-devider.png" alt="">
+          <div class="p-9">
+            <h1 class="text-4xl font-bold mb-2 mt-8">NEW15</h1>
+            <p class="text-xl text-zinc-600">Coupon Code</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="w-full max-w-2xl bg-rose-300 rounded-3xl shadow-lg flex">
+          <div class="p-9">
+            <h1 class="text-5xl font-bold mb-2">
+              20% OFF
+            </h1>
+            <h3 class="text-2xl font-medium mb-2">on your next purchase</h3>
+            <p class="text-xl text-zinc-600">use by January 2024</p>
+          </div>
+          <img src="images/cupon-devider.png" alt="">
           <div class="p-9">
             <h1 class="text-4xl font-bold mb-2 mt-8">Couple 20</h1>
             <p class="text-xl text-zinc-600">Coupon Code</p>
           </div>
+        </div>
+      </div>
+    </section>
+    <button class=" m-10 mb-24 btn btn-outline btn-success border-solid border-2 mx-[635px] w-44 text-xl ">See All
+      Offers</button>
+
+
+    <!-- Bus detailed section -->
+    <section class="bg-slate-50 rounded-2xl">
+      <div class=" border-t-2 border-green-500 rounded-full">
+        <h1 class="mt-20 text-4xl font-bold mx-[600px]">
+          P.H Paribahan
+        </h1>
+        <p class="text-xl text-zinc-600 mx-72 mt-4">Yes, you can run unit tests and view the results directly within the
+          app.
+          The integrated <br>
+          <span class="mx-60">testing features allow for a streamlined .</span>
+        </p>
+      </div>
+
+      <div class="m-20 gap-4 drop-shadow-2xl bg-white flex rounded-3xl border-solid ">
+        <div class="p-10 w-[75%]">
+          <div class="flex justify-between">
+            <div>
+              <div><img class="w-14 h-12" src="images/bus-logo.png" alt=""></div>
+              <div>
+                <h1 class="text-4xl font-bold mx-16 -mt-14 ">Greenline Paribahan</h1>
+                <p class="mx-16 mt-2 text-lg">Coach-009-WEB ! AC_Business</p>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-active no-animation border-none text-xl  bg-green-100 hover:bg-green-100 text-green-600">
+                <img src="images/seat-green.png" alt="">
+                <h3>40 Seats left</h3>
+              </button>
+            </div>
+
+          </div>
+          <div class="drop-shadow-2xl bg-gray-100 rounded-3xl border-solid mt-6 p-8">
+            <div class="flex justify-between border-dashed border-b-2 border-gray-300">
+              <h1 class="text-xl text-zinc-700 mb-4">Route</h1>
+              <h1 class="text-xl text-black mb-4">Dhaka - Sylhet</h1>
+            </div>
+            <div class="flex justify-between border-dashed border-b-2 border-gray-300">
+              <h1 class="text-xl text-zinc-700 mt-4 mb-4">Departure Time </h1>
+              <h1 class="text-xl text-black mt-4 mb-4">9:00 PM</h1>
+            </div>
+            <div class="flex justify-evenly mt-6">
+              <button class="btn btn-active no-animation text-xl">Boarding Point - Laxmipur
+              </button>
+              <button class="btn btn-active no-animation text-xl">Dropping Point - Bogura</button>
+              <button class="btn btn-active no-animation text-xl">Est. Time - 11 Hour</button>
+            </div>
           </div>
         </div>
-     </section>
-      <button class=" m-10 mb-24 btn btn-outline btn-success border-solid border-2 mx-[600px] w-44 text-xl ">See All Offers</button>
 
-
-      <!-- Bus detailed section -->
-       <section >
-        <div class=" border-t-2 border-green-500 rounded-full">
-          <h1 class="mt-20 text-4xl font-bold mx-[600px]">
-            P.H Paribahan
-          </h1>
-          <p class="text-xl text-zinc-600 mx-72 mt-4">Yes, you can run unit tests and view the results directly within the app.
-            The integrated <br>
-            <span class="mx-60">testing features allow for a streamlined .</span>
-          </p>
+        <div class=""><img src="images/info-devider.png" alt=""></div>
+        <div class="items-center text-center ">
+          <img class="mt-32 mx-10" src="images/fare.png" alt="">
+          <h1 class="text-4xl font-bold mt-2">550 Taka</h1>
+          <p class="text-xl text-zinc-600 mt-2">Per Seat</p>
         </div>
-
-        <div class="m-20 gap-4 drop-shadow-lg bg-white flex rounded-3xl border-solid ">
-      <div class="flex">
-       <img class="w-10 h-10" src="images/bus-logo.png" alt="">
-       <div><h1>Greenline Paribahan</h1>
-      <p>Coach-009-WEB ! AC_Business</p></div>
-        <button class=" btn btn-outline btn-success border-solid border-2 text-xl ">
-          <img src="images/seat-gray.png" alt="">
-          <h3>40 Seats left</h3>
-        </button>
       </div>
-      <div>
-
-      </div>
-      <img src="images/info-devider.png" alt="">
-      <div>
-      <img src="images/fare.png" alt="">
-      <h1>550 Taka</h1>
-      <p>Per Seat</p>
-      </div>
-        </div>
-       </section>
+    </section>
   </main>
   <footer>
 
@@ -189,4 +219,5 @@
 
   <script src="style.js"></script>
 </body>
+
 </html>
