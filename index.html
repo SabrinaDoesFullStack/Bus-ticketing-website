@@ -399,8 +399,26 @@
               <input type="text" class="grow" placeholder="Enter your email id" />
             </label>
           </div>
-          <button class="btn border-none bg-green-500 border-2 text-white font-bold w-[470px] h-16 text-lg">Next
-          </button>
+          <!-- The button to open modal -->
+          <a href="#my_modal_8" class="btn border-none bg-green-500 border-2 text-white font-bold w-[470px] h-16 text-lg">Next</a>
+          
+          <!-- Put this part before-->
+          <div class="modal" role="dialog" id="my_modal_8">
+            <div class="modal-box">
+              <div class="mx-48">
+                <img src="images/success.png" alt="">
+                <h3 class="text-2xl font-bold text-green-600 m-6 -mx-2">SUCCESS</h3>
+              </div>
+              <div>
+                <h1 class="text-black text-lg font-semibold flex items-center mx-16">Thank you for Booking Our Bus Seats.</h1>
+                <h1 class="text-black text-lg font-semibold mx-12">We are working hard to find the best service<br> <span class="mx-24">and deals for you.</span></h1>
+                <p class="mt-4 text-gray-600 mx-14">Shortly you will find a confirmation in your email.</p>
+              </div>
+              <div class="modal-action">
+                <a href="#" class="btn mx-32 border-none bg-green-500 border-2 rounded-2xl text-white font-bold w-[200px] h-12 text-lg">Continue</a>
+              </div>
+            </div>
+          </div>
           <div class="flex justify-evenly mt-6">
             <h1 class="underline text-lg text-gray-500">Terms and Conditions </h1>
             <h1>Cancellation Policy</h1>
